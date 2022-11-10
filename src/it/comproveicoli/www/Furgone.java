@@ -1,7 +1,7 @@
 package it.comproveicoli.www;
 
 /**
- *
+ * classe furgone che estende classe generica veicolo a motore
  */
 public class Furgone extends VeicoloAMotore {
     /**
@@ -23,7 +23,7 @@ public class Furgone extends VeicoloAMotore {
 
     /**
      *
-     * @return
+     * @return capacita
      */
     public int getCapacita() {
         return this.capacita;
@@ -40,7 +40,7 @@ public class Furgone extends VeicoloAMotore {
 
     /**
      *
-     * @return
+     * @return info furgone
      */
     @Override
     public String info() {

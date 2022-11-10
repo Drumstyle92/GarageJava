@@ -1,7 +1,7 @@
 package it.comproveicoli.www;
 
 /**
- *
+ * classe auto che estende classe generica veicolo a motore
  */
 public class Auto extends VeicoloAMotore{
     /**
@@ -29,7 +29,7 @@ public class Auto extends VeicoloAMotore{
 
     /**
      *
-     * @return
+     * @return porte
      */
     public int getPorte() {
         return this.porte;
@@ -45,7 +45,7 @@ public class Auto extends VeicoloAMotore{
 
     /**
      *
-     * @return
+     * @return alimentazione
      */
     public String getAlimentazione() {
         return this.alimentazione;
@@ -59,7 +59,7 @@ public class Auto extends VeicoloAMotore{
 
     /**
      *
-     * @return
+     * @return info auto
      */
     @Override
     public String info() {

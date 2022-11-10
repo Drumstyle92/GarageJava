@@ -1,7 +1,7 @@
 package it.comproveicoli.www;
 
 /**
- *
+ * classe moto che estende classe generica veicolo a motore
  */
 public class Moto extends VeicoloAMotore{
 
@@ -24,7 +24,7 @@ public class Moto extends VeicoloAMotore{
 
     /**
      *
-     * @return
+     * @return tempi
      */
     public  int getTempi(){
         return this.tempi;
@@ -40,7 +40,7 @@ public class Moto extends VeicoloAMotore{
 
     /**
      *
-     * @return
+     * @return info moto
      */
     @Override
     public String info() {

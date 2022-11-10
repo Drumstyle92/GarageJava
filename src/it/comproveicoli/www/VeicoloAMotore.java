@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- *
+ * classe generica veicolo a motore
  */
 public class VeicoloAMotore {
     /**
@@ -34,7 +34,7 @@ public class VeicoloAMotore {
     public VeicoloAMotore(){}
 
     /**
-     *
+     * costruttore
      * @param marca
      * @param anno
      * @param cilindrata
@@ -47,7 +47,7 @@ public class VeicoloAMotore {
 
     /**
      *
-     * @return
+     * @return marca
      */
     public String getMarca() {
         return this.marca;
@@ -63,7 +63,7 @@ public class VeicoloAMotore {
 
     /**
      *
-     * @return
+     * @return anno
      */
     public int getAnno() {
         return this.anno;
@@ -79,7 +79,7 @@ public class VeicoloAMotore {
 
     /**
      *
-     * @return
+     * @return cilindrata
      */
     public int getCilindrata() {
         return this.cilindrata;
@@ -95,7 +95,7 @@ public class VeicoloAMotore {
 
     /**
      *
-     * @return
+     * @return garage
      */
     public List<String> getGarage() {
         return this.garage;
@@ -103,7 +103,7 @@ public class VeicoloAMotore {
 
     /**
      *
-     * @return
+     * @return info veicolo a motore
      */
     public String info() {
         return "\nMarca: " + getMarca() +
