@@ -18,6 +18,7 @@ public class Garage {
         Scanner scanner = new Scanner(System.in);
         int posto = 15;
         String scannerWhile;
+
         //
         do {
             for (int i = 0; i < posto; i++) {
@@ -25,7 +26,9 @@ public class Garage {
             }
             //
             System.out.println("Benvenuto nel garage! Registrazione veicolo, dettagli:");
+
             System.out.println("");
+
             System.out.println("Marca:");
             String scannerMarca = scanner.nextLine();
             System.out.println("Anno:");
@@ -40,6 +43,7 @@ public class Garage {
             "\n(3) auto" +"\nPremere il numero di riferimento del tipo di veicolo:" );
             int scannerscelta = scanner.nextInt();
             scanner.nextLine();
+
             switch (scannerscelta) {
                 // FURGONE
                 case 1 -> {

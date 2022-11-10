@@ -21,10 +21,14 @@ public class Auto extends VeicoloAMotore{
      * @param porte
      * @param alimentazione
      */
+
+
     public Auto(String marca, int anno, int cilindrata, int porte,String alimentazione) {
         super(marca, anno, cilindrata);
         setPorte(porte);
         setAlimentazione(alimentazione);
+
+
     }
 
     /**
@@ -56,6 +60,8 @@ public class Auto extends VeicoloAMotore{
     public void setAlimentazione(String alimentazione) {
         this.alimentazione = alimentazione;
     }
+
+
 
     /**
      *
