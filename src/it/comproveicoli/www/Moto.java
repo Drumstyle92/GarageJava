@@ -3,8 +3,9 @@ package it.comproveicoli.www;
 /**
  *
  */
-public class Moto extends VeicoloAMotore {
-    /**
+public class Moto extends VeicoloAMotore{
+
+     /**
      *
      */
     private int tempi;
@@ -16,8 +17,8 @@ public class Moto extends VeicoloAMotore {
      * @param cilindrata
      * @param tempi
      */
-    public Moto(String marca, int anno, int cilindrata, int tempi) {
-        super( marca, anno, cilindrata);
+    public Moto(String marca, int anno, int cilindrata, int tempi){
+        super(marca, anno, cilindrata);
         setTempi(tempi);
     }
 
@@ -25,7 +26,7 @@ public class Moto extends VeicoloAMotore {
      *
      * @return
      */
-    public int getTempi() {
+    public  int getTempi(){
         return this.tempi;
     }
 
@@ -33,9 +34,9 @@ public class Moto extends VeicoloAMotore {
      *
      * @param tempi
      */
-    public void setTempi(int tempi) {
-        this.tempi = tempi;
-    }
+   public void setTempi(int tempi){
+       this.tempi= tempi;
+   }
 
     /**
      *
@@ -43,7 +44,7 @@ public class Moto extends VeicoloAMotore {
      */
     @Override
     public String info() {
-        String tipoVeicolo = "Moto";
-        return "\n======================\n"+"Veicolo: " + tipoVeicolo +  super.info() + "\nA " + getTempi() + " Tempi";
+        String tipoVeicolo= "Moto";
+        return "\n======================\n"+"Veicolo: " + super.info() + "\nA " + getTempi() + " Tempi";
     }
 }

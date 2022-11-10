@@ -14,9 +14,9 @@ public class Garage {
      */
     public static void main(String[] args) {
         //
-        VeicoloAMotore veicolo = new VeicoloAMotore();
+        VeicoloAMotore veicoloAMotore = new VeicoloAMotore();
         Scanner scanner = new Scanner(System.in);
-        int posto = 15;
+        int posto = 15
         String scannerWhile;
         //
         do {
@@ -43,11 +43,11 @@ public class Garage {
             switch (scannerscelta) {
                 // FURGONE
                 case 1 -> {
-                    System.out.println("Capacità del carico:");
+                    System.out.println("Capacita del carico");
                     int scannerCapacita = scanner.nextInt();
                     scanner.nextLine();
                     Furgone furgone = new Furgone(scannerMarca, scannerAnno, scannerCilindrata, scannerCapacita);
-                    String id = furgone.info();
+                    String id = furgone.info() ;
                         System.out.println("-Quale posto desiderate? La grandezza del garage è di 15 posti-"+
                                 "\nSelezionate il posto:");
                         int scannerPostoGarage = scanner.nextInt();
